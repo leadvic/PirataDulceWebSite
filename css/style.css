@@ -107,6 +107,11 @@ main {
 }
 
 .logInBox a {
+  color: white;
   font-size: 18px;
   font-weight: 600;
+}
+
+.logInBox h1 {
+  color: white;
 }
