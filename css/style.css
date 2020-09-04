@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+:root{
+  --main-background: rgba(0, 0, 0, .5);
+  --main-transition: 0.2s;
+}
+
+html {
+  height: 100%;
+}
+
+body{
+  height: 80%;
+  background-image: url("../img/image.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav{
+  background: var(--main-background);
+  display: flex;
+  flex-flow: row nowrap;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a{
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+nav a:hover{
+  transition: all ease var(--main-transition);
+  background: black;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logInBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  border-radius: 20px;
+  background: var(--main-background);
+  padding: 20px;
+}
+
+.logBox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0px;
+  margin: 8px 0px;
+}
+
+.logBox i {
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+.logBox input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0px 10px;
+  border-bottom: 2px solid;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.button {
+  width: 50%;
+  border-radius: 6px;
+  background: var(--main-background);
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: all ease var(--main-transition);
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 1);
+}
+
+.logInBox a {
+  font-size: 18px;
+  font-weight: 600;
+}
