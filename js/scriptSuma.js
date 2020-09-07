@@ -4,4 +4,5 @@ function suma()
             var n2 = parseInt(document.getElementById("number2").value);
             var res = n1 + n2;
             document.getElementById("res").value=res;
-    }    
+    }  
+
