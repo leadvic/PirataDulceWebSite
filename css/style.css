@@ -19,9 +19,8 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/Bizcocho32cm.jpg);
+  background: url(../img/bg-desktop.jpg);
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .banner .content{
@@ -385,6 +384,11 @@ section{
   section{
     padding: 20px;
   }
+
+.banner {
+  background: url(../img/bg-phone.jpg);
+  background-size: cover;
+}
 
   .banner .content h2{
     font-size: 3em;
