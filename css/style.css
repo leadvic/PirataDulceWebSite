@@ -12,6 +12,11 @@ p{
   color: #111;
 }
 
+p a{
+  text-decoration: none;
+  color: #ff0157;
+}
+
 .banner{
   position: relative;
   width: 100%;
@@ -34,7 +39,7 @@ p{
 }
 
 .banner .content p{
-  font-size: 1em;
+  font-size: 1.5em;
   color: #fff;
 }
 
@@ -239,10 +244,11 @@ section{
 .expert .content .box .text h3{
   font-weight: 400;
   color: #111;
+  text-align: center;
 }
 
 .testimonials{
-  background: url(../img/ilu1.jpg);
+  background: url(../img/tripulacion.png);
   background-size: cover;
 
 }
@@ -443,9 +449,13 @@ section{
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 560px){
   .banner .content h2{
     font-size: 2.2em;
+    color: #fff;
+  }
+  .banner .content p{
+    font-size: 1em;
     color: #fff;
   }
 }
